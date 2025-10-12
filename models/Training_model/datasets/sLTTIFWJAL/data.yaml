@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bottle']
+
+roboflow:
+  workspace: athul-xsgk2
+  project: bottle-x3ro5
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/athul-xsgk2/bottle-x3ro5/dataset/2

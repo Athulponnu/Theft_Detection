@@ -1,0 +1,12 @@
+[
+    {
+        "timestamp": "2025-10-02 11:50:41",
+        "face_name": "Unknown",
+        "objects_detected": [
+            "person",
+            "person"
+        ],
+        "alert": true,
+        "capture_path": "captures/unknown/Unknown_1759386041.jpg"
+    }
+]

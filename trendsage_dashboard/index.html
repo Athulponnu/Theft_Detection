@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TrendSage Dashboard</title>
+  <link rel="stylesheet" href="/utils/style.css">
+</head>
+<body>
+  <h1 class="dashboard-title">TrendSage Dashboard</h1>
+
+  <!-- Common filters for both tables -->
+  <div class="search-filters">
+    <label>Date: <input type="date" id="dateFilter"></label>
+    <label>Time: <input type="time" id="timeFilter"></label>
+  </div>
+
+  <div class="tables-wrapper">
+    <section class="table-section">
+      <h2>Known Logs</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Timestamp</th>
+              <th>Face</th>
+              <th>Objects Detected</th>
+              <th>Status</th>
+              <th>Capture</th>
+            </tr>
+          </thead>
+          <tbody id="knownLogsTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="table-section">
+      <h2>Unknown Logs</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Timestamp</th>
+              <th>Face</th>
+              <th>Objects Detected</th>
+              <th>Status</th>
+              <th>Capture</th>
+            </tr>
+          </thead>
+          <tbody id="unknownLogsTable"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script src="/utils/script.js"></script>
+</body>
+</html>
