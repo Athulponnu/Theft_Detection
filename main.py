@@ -142,7 +142,7 @@ def main():
         # sound_detected = detect_sound_from_arduino()
         if sound_detected:
             print("[INFO] 🔊 Sound detected!")
-            winsound.Beep(1000, 500)
+            # winsound.Beep(1000, 500)
 
         # -----------------------------
         # Trigger alert if both hand in restricted area AND sound detected
