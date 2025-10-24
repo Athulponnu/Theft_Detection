@@ -22,7 +22,7 @@ A **real-time Theft Detection System** using **YOLOv8, Face Recognition, Pose De
 
 ## 🎬 Demo
 
-![Theft Detection Demo](https://raw.githubusercontent.com/YourUsername/theft-detection/main/assets/demo.gif)
+![Demo](./asd.gif)
 *Animated demo of detection and alert system in action.*
 
 ---
